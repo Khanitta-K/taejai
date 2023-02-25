@@ -54,7 +54,7 @@ class ProjectDetailsPage extends StatelessWidget {
                     child:
                     Text(
                       project.title,
-                      style: TextStyle(fontSize: 20,),
+                      style: TextStyle(fontSize: 22,),
                     ),
                   ),
                   Padding(
@@ -73,7 +73,7 @@ class ProjectDetailsPage extends StatelessWidget {
                         Expanded(
                           child: Text(
                             project.detail,
-                            style: TextStyle(fontSize: 14),
+                            style: TextStyle(fontSize: 16),
                           ),
                         ),
                       ],
@@ -87,12 +87,12 @@ class ProjectDetailsPage extends StatelessWidget {
                       children: [
                         Text(
                           'ระยะเวลาโครงการ',
-                          style: TextStyle(fontSize: 13, color: Colors.black45),
+                          style: TextStyle(fontSize: 15, color: Colors.black45),
                         ),
                         Expanded(
                           child: Text(
                             project.time,
-                            style: TextStyle(fontSize: 14),
+                            style: TextStyle(fontSize: 16),
                           ),
                         ),
                       ],
@@ -106,12 +106,12 @@ class ProjectDetailsPage extends StatelessWidget {
                       children: [
                         Text(
                           'พื้นที่ดำเนินโครงการ',
-                          style: TextStyle(fontSize: 13, color: Colors.black45),
+                          style: TextStyle(fontSize: 15, color: Colors.black45),
                         ),
                         Expanded(
                           child: Text(
                             project.place,
-                            style: TextStyle(fontSize: 14),
+                            style: TextStyle(fontSize: 16),
                           ),
                         ),
                       ],
@@ -152,9 +152,9 @@ class ProjectDetailsPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.start,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text('ยอดบริจาคขณะนี้', style: TextStyle(fontSize: 14.0, color: Colors.black),
+                                Text('ยอดบริจาคขณะนี้', style: TextStyle(fontSize: 18.0, color: Colors.black),
                                 ),
-                                Text('$recieve บาท', style: TextStyle(fontSize: 16.0, color: Colors.deepOrangeAccent,),
+                                Text('$recieve บาท', style: TextStyle(fontSize: 20.0, color: Colors.deepOrangeAccent,),
                                 ),
                               ],
                             ),
